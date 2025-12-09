@@ -41,7 +41,7 @@ def parse_types(raw):
 
 SELECTED_KINDS = parse_types(TYPES_RAW)
 
-# get leaderboard json
+# fetch leaderboard json
 def fetch_leaderboard(session, soort):
     url = LEADERBOARD_API + soort
     try:
